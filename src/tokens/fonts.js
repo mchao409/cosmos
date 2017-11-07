@@ -1,5 +1,5 @@
 const fonts = {
-  text: 'fakt-web, Helvetica, sans-serif',
+  text: 'Helvetica, sans-serif',
   code: 'Roboto Mono, monospace'
 }
 
