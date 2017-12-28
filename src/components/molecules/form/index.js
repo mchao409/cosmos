@@ -19,6 +19,7 @@ const Label = styled.label`
   font-weight: ${fonts.weight.medium};
   text-align: right;
   padding-top: 10px;
+  line-height: normal;
 `
 
 const Error = styled.div`

@@ -122,6 +122,7 @@ const StyledButton = styled.button`
 
   margin: ${spacing.xsmall};
   margin-left: 0;
+  margin-right: ${props => (props.destructive ? 0 : '')};
   padding: ${spacing.xsmall} ${props => (props.icon ? 0 : spacing.small)};
 
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
